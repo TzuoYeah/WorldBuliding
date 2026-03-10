@@ -19,11 +19,31 @@ theme:
         icon: material/brightness-4
         name: 切換至淺色模式
   features:
+    - content.tabs.link
+    - navigation.tags  # 在側邊欄顯示標籤（可選）
     - navigation.tabs      # 頂部導航欄（適合大分類）
     - navigation.sections  # 側邊欄分組標題
     - navigation.expand    # 預設展開所有目錄
     - search.suggest       # 搜尋自動補完
     - content.code.copy    # 程式碼右上角出現複製按鈕
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md  # 指定 tags 的檔案路徑
+markdown_extensions:
+  - admonition          # 提醒區塊
+  - pymdownx.details    # 折疊區塊
+  - pymdownx.superfences # 支持嵌套語法（如標籤頁裡放代碼）
+  - pymdownx.tabbed:    # 標籤頁
+      alternate_style: true 
+  - footnotes           # 腳註
+  - tables              # 表格
+  - attr_list           # 允許為元素加入 CSS 類別
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.mermaid_format
 nav:
   - 首頁: index.md
   - 市鎮:
