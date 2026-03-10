@@ -4,7 +4,7 @@
 ```mermaid
 ---
 config:
-  theme: neutral
+  theme: dark
 ---
 mindmap
   root((我的 Wiki))
