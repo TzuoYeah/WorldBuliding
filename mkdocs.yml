@@ -26,4 +26,9 @@ theme:
     - content.code.copy    # 程式碼右上角出現複製按鈕
 nav:
   - 首頁: index.md
-  - 測試頁面: test.md
+  - 市鎮: test.md
+    - 小村莊 Hamlet: hamlet.md
+    - 村莊 Village: village.md
+    - 小鎮 Town: town.md
+    - 城市 City: city.md
+    - 首都 Capital: capital.md
