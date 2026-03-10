@@ -53,6 +53,10 @@ nav:
     - 小鎮(Town): town.md
     - 城市(City): city.md
     - 首都(Capital): capital.md
+  - 地下城:
+    - 小型(Small):
+    - 中型(Medium):
+    - 大型(Large):
 extra_javascript:
   - javascripts/mermaid.js  # 放在本地的初始化腳本
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
