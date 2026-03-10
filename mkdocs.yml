@@ -27,8 +27,9 @@ theme:
 nav:
   - 首頁: index.md
   - 市鎮:
-    - 小村莊 Hamlet: hamlet.md
-    - 村莊 Village: village.md
-    - 小鎮 Town: town.md
-    - 城市 City: city.md
-    - 首都 Capital: capital.md
+    - 小村莊(Hamlet):
+      - 藻林村: hamlet/藻林村.md
+    - 村莊(Village): village.md
+    - 小鎮(Town): town.md
+    - 城市(City): city.md
+    - 首都(Capital): capital.md
