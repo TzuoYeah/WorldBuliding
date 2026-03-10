@@ -1,9 +1,29 @@
-site_name: 我的 Wiki 知識庫
+site_name: 十元建立的世界觀
 theme:
-  name: material  # 使用最強大的 Material 主題
-  palette:
-    primary: indigo # 設定主題顏色
-
+  name: material
+  language: zh-Hant  # 設定為繁體中文（搜尋介面也會變中文）
+  palette: 
+    # 日夜模式切換按鈕
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切換至深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切換至淺色模式
+  features:
+    - navigation.tabs      # 頂部導航欄（適合大分類）
+    - navigation.sections  # 側邊欄分組標題
+    - navigation.expand    # 預設展開所有目錄
+    - search.suggest       # 搜尋自動補完
+    - content.code.copy    # 程式碼右上角出現複製按鈕
 nav:
   - 首頁: index.md
-  - 安裝指南: test.md
+  - 測試頁面: test.md
