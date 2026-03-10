@@ -26,6 +26,7 @@ theme:
     - navigation.expand    # 預設展開所有目錄
     - search.suggest       # 搜尋自動補完
     - content.code.copy    # 程式碼右上角出現複製按鈕
+
 plugins:
   - search
   - tags:
@@ -33,12 +34,16 @@ plugins:
 markdown_extensions:
   - admonition          # 提醒區塊
   - pymdownx.details    # 折疊區塊
-  - pymdownx.superfences # 支持嵌套語法（如標籤頁裡放代碼）
   - pymdownx.tabbed:    # 標籤頁
       alternate_style: true 
   - footnotes           # 腳註
   - tables              # 表格
   - attr_list           # 允許為元素加入 CSS 類別
+  - pymdownx.superfences: # 支持嵌套語法（如標籤頁裡放代碼）
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format # 使用標準格式而非 mermaid_format
 nav:
   - 首頁: index.md
   - 市鎮:
@@ -49,4 +54,5 @@ nav:
     - 城市(City): city.md
     - 首都(Capital): capital.md
 extra_javascript:
+  - javascripts/mermaid.js  # 放在本地的初始化腳本
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
