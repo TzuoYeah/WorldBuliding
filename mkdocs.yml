@@ -39,11 +39,6 @@ markdown_extensions:
   - footnotes           # 腳註
   - tables              # 表格
   - attr_list           # 允許為元素加入 CSS 類別
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.mermaid_format
 nav:
   - 首頁: index.md
   - 市鎮:
@@ -53,3 +48,5 @@ nav:
     - 小鎮(Town): town.md
     - 城市(City): city.md
     - 首都(Capital): capital.md
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
