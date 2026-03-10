@@ -34,11 +34,15 @@ plugins:
 markdown_extensions:
   - admonition          # 提醒區塊
   - pymdownx.details    # 折疊區塊
+  - pymdownx.arithmatex: # LaTeX
+      generic: true  
   - pymdownx.tabbed:    # 標籤頁
       alternate_style: true 
   - footnotes           # 腳註
   - tables              # 表格
   - attr_list           # 允許為元素加入 CSS 類別
+  - pymdownx.mark       # 螢光筆文字
+  - pymdownx.tilde      # 刪除線
   - pymdownx.superfences: # 支持嵌套語法（如標籤頁裡放代碼）
       custom_fences:
         - name: mermaid
@@ -60,3 +64,5 @@ nav:
 extra_javascript:
   - javascripts/mermaid.js  # 放在本地的初始化腳本
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
