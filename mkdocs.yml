@@ -1,0 +1,9 @@
+site_name: 我的 Wiki 知識庫
+theme:
+  name: material  # 使用最強大的 Material 主題
+  palette:
+    primary: indigo # 設定主題顏色
+
+nav:
+  - 首頁: index.md
+  - 安裝指南: test.md
