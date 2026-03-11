@@ -50,18 +50,24 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format # 使用標準格式而非 mermaid_format
 nav:
   - 首頁: index.md
-  - 市鎮:
-    - 小村莊(Hamlet):
-      - 藻林村: hamlet/藻林村.md
-    - 村莊(Village): 404.md
-    - 小鎮(Town): 404.md
-    - 城市(City): 404.md
-    - 首都(Capital): 404.md
+  - 定居地 settlement:
+    - 小村莊:
+      - 藻林村: settlement/hamlet/藻林村.md
+    - 村莊:
+      - 劍貝港: settlement/village/劍貝港.md
+    - 小鎮:
+      - 紅流: settlement/town/紅流.md
+    - 城市:
+      - 陣列岩: settlement/city/陣列岩.md
+    - 首都:
+      - 長灣: settlement/capital/長灣.md
   - 地下城:
     - 小型(Small): 
       - 海蝕洞: dungeon/small/海蝕洞.md
-    - 中型(Medium): 404.md
-    - 大型(Large): 404.md
+    - 中型(Medium):
+      - 施工中: 404.md
+    - 大型(Large):
+      - 施工中: 404.md
 extra_javascript:
   - javascripts/mermaid.js  # 放在本地的初始化腳本
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
