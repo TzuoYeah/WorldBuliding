@@ -24,13 +24,16 @@ theme:
     - navigation.tabs      # 頂部導航欄（適合大分類）
     - navigation.sections  # 側邊欄分組標題
     - navigation.expand    # 預設展開所有目錄
+    - navigation.path  # 在頁面頂部顯示當前路徑（例如：首頁 > 市鎮 > 藻林村）
     - search.suggest       # 搜尋自動補完
     - content.code.copy    # 程式碼右上角出現複製按鈕
+
 
 plugins:
   - search
   - tags:
       tags_file: tags.md  # 指定 tags 的檔案路徑
+  - roamlinks  # 啟用後就能用 [[頁面]] 語法了
 markdown_extensions:
   - admonition          # 提醒區塊
   - pymdownx.details    # 折疊區塊
@@ -63,7 +66,7 @@ nav:
       - 001 長灣: settlement/capital/001.長灣.md
   - 地下城:
     - I.小型(Small): 
-      - 海蝕洞: dungeon/small/海蝕洞.md
+      - 001.藻林村外的海蝕洞: dungeon/small/001.藻林村外的海蝕洞.md
     - II.中型(Medium):
       - 施工中: 404.md
     - III.大型(Large):
