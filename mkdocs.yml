@@ -58,7 +58,8 @@ nav:
     - 城市(City): 404.md
     - 首都(Capital): 404.md
   - 地下城:
-    - 小型(Small): 404.md
+    - 小型(Small): 
+      - 海蝕洞: dungeon/small/海蝕洞.md
     - 中型(Medium): 404.md
     - 大型(Large): 404.md
 extra_javascript:
