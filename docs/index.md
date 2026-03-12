@@ -22,6 +22,10 @@
 
 [^1]: 這是自動生成的腳註內容。
 
+## 徽章測試
+
+[奧德 (Olde)]{ .md-tag-custom .tag-name }[男性]{ .md-tag-custom .tag-gender }[58歲]{ .md-tag-custom .tag-age }[人類]{ .md-tag-custom .tag-race }[酒館老闆]{ .md-tag-custom .tag-identity }[滿臉鬍渣]{ .md-tag-custom .tag-look }、[配戴方缺了一隻左耳眼鏡]{ .md-tag-custom .tag-look }[豪爽]{ .md-tag-custom .tag-trait }、[對海況極其敏感]{ .md-tag-custom .tag-trait }[前水手]{ .md-tag-custom .tag-note }
+
 ### LaTeX 測試
 
 \[
