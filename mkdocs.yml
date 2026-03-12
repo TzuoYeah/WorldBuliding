@@ -22,12 +22,13 @@ theme:
     - content.tabs.link
     - navigation.tags  # 在側邊欄顯示標籤（可選）
     - navigation.tabs      # 頂部導航欄（適合大分類）
+    - navigation.tracking  # 右側目錄會自動高亮當前位置
     - navigation.sections  # 側邊欄分組標題
-    - navigation.expand    # 預設展開所有目錄
     - navigation.path  # 在頁面頂部顯示當前路徑（例如：首頁 > 市鎮 > 藻林村）
+    - navigation.top   # 當頁面滑到底部時，右下角出現「回到頂部」的按鈕。
     - search.suggest       # 搜尋自動補完
     - content.code.copy    # 程式碼右上角出現複製按鈕
-
+    - toc.integrate # 將右側的小目錄整合進左側大導覽
 
 plugins:
   - search

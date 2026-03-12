@@ -1,0 +1,25 @@
+/* 基礎徽章樣式設定 */
+.md-tag-custom {
+  display: inline-block;
+  padding: 0 0.6rem;
+  font-weight: 600;
+  line-height: 1.5;
+  border-radius: 0.1rem;
+  font-size: 0.7rem;
+  margin: 0 0.1rem;
+}
+
+/* 各主題配色 */
+.tag-name     { background-color: #546e7a; color: white; } /* 名稱：深石板藍 */
+.tag-gender   { background-color: #ec407a; color: white; } /* 性別：胭脂紅 */
+.tag-age      { background-color: #7e57c2; color: white; } /* 年齡：紫色 */
+.tag-race     { background-color: #66bb6a; color: white; } /* 種族：森綠色 */
+.tag-identity { background-color: #ffa726; color: white; } /* 身分：琥珀橘 */
+.tag-look     { background-color: #26c6da; color: white; } /* 外貌：青色 */
+.tag-trait    { background-color: #ff7043; color: white; } /* 性格：珊瑚色 */
+.tag-note     { background-color: #90a4ae; color: white; } /* 備註：冷灰色 */
+
+/* 懸停效果：稍微加深 */
+.md-tag-custom:hover {
+  opacity: 0.85;
+}
