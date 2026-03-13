@@ -69,12 +69,17 @@ nav:
     - I.小型(Small): 
       - 001.藻林村外的海蝕洞: dungeon/small/001.藻林村外的海蝕洞.md
     - II.中型(Medium):
-      - 施工中: 404.md
+      - 003.陣列岩的地下迷宮: dungeon/medium/003.陣列岩的地下迷宮.md
     - III.大型(Large):
       - 施工中: 404.md
   - 家族:
-      - 001.摩根.md
-      - 002.瑪格瑪.md
+      - 001.摩根: family/001.摩根.md
+      - 002.瑪格瑪: family/002.瑪格瑪.md
+      - 003.諾摩斯: family/003.諾摩斯.md
+      - 004.埃拉托: family/004.埃拉托.md
+  - 組織:
+    - I.區域性:
+      - 001.天體觀測協會: organize/local/001.天體觀測協會.md
 extra_javascript:
   - javascripts/mermaid.js  # 放在本地的初始化腳本
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
