@@ -56,15 +56,15 @@ nav:
   - 首頁: index.md
   - 定居地:
     - I.小村莊:
-      - 001 藻林村: settlement/hamlet/001.藻林村.md
+      - 001.藻林村: settlement/hamlet/001.藻林村.md
     - II.村莊:
-      - 001 劍貝港: settlement/village/001.劍貝港.md
+      - 001.劍貝港: settlement/village/001.劍貝港.md
     - III.小鎮:
-      - 001 紅流: settlement/town/001.紅流.md
+      - 001.紅流: settlement/town/001.紅流.md
     - IV.城市:
-      - 001 陣列岩: settlement/city/001.陣列岩.md
+      - 001.陣列岩: settlement/city/001.陣列岩.md
     - V.首都:
-      - 001 長灣: settlement/capital/001.長灣.md
+      - 001.長灣: settlement/capital/001.長灣.md
   - 地下城:
     - I.小型(Small): 
       - 001.藻林村外的海蝕洞: dungeon/small/001.藻林村外的海蝕洞.md
@@ -72,6 +72,9 @@ nav:
       - 施工中: 404.md
     - III.大型(Large):
       - 施工中: 404.md
+  - 家族:
+      - 001.摩根.md
+      - 002.瑪格瑪.md
 extra_javascript:
   - javascripts/mermaid.js  # 放在本地的初始化腳本
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
